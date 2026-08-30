@@ -1,6 +1,6 @@
 [workspace]
 resolver = "3"
-members = ["dustbin"]
+members = ["elf"]
 
 [workspace.dependencies]
 anyhow = { version = "1.0.102", features = ["backtrace"] }

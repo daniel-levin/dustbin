@@ -2,7 +2,7 @@
 //!
 //! ## Small example
 //! ```no_run
-//! use dustbin::analysis::Analyze64Le;
+//! use dustbin_elf::analysis::Analyze64Le;
 //!
 //! # fn main() -> anyhow::Result<()> {
 //! let data = std::fs::read("path/to/elf")?;
