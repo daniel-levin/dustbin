@@ -1,0 +1,13 @@
+[workspace]
+resolver = "3"
+members = ["dustbin"]
+
+[workspace.dependencies]
+anyhow = { version = "1.0.102", features = ["backtrace"] }
+bstr = "1.12.1"
+derive_more = { version = "2.1.1", features = ["debug"] }
+dustbin = { path = "dustbin" }
+iced-x86 = "1.21.0"
+object = "0.39.1"
+static_assertions = "1.1.0" 
+thiserror = "2.0.18"

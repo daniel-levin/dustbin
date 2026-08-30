@@ -1,0 +1,15 @@
+[package]
+name = "dustbin"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bstr.workspace = true
+derive_more.workspace = true
+iced-x86.workspace = true
+object.workspace = true
+static_assertions.workspace = true
+thiserror.workspace = true
+
+[dev-dependencies]
+anyhow.workspace = true
