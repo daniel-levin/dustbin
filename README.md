@@ -1,6 +1,6 @@
 # dustbin
 Dustbin assists in the production of working and valid ELF files.
-The problem is best explained by way of examples.
+The problem is best explained by way of example.
 
 ## Problem 1: targeting new operating systems
 Suppose we are porting a linker to multiple Unix and Unix-like operating systems, for `x86_64` only, for argument's sake.
@@ -15,8 +15,8 @@ To port a linker to a new operating system, we must do the following, at a minim
 1. Ensure to tow in all operating system-specific sections that might exist.
 
 ## Problem 2: toolchain flexibility
-Suppose that we are working on Illumos.
-Over time, the kernel's needs will demand the use of different toolchains.
+Suppose that we are working on Illumos, or FreeBSD.
+Over time, new needs will demand the use of different toolchains.
 We might like to use multiple compilers, or build modules out-of-tree, or in a different language.
 We might wish to renovate the build system itself, and retain confidence that our produced artifacts
 still work.
