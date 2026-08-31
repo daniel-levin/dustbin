@@ -1,6 +1,6 @@
 [workspace]
 resolver = "3"
-members = ["elf"]
+members = ["elf", "elf_tests"]
 
 [workspace.dependencies]
 anyhow = { version = "1.0.102", features = ["backtrace"] }
@@ -11,3 +11,5 @@ iced-x86 = "1.21.0"
 object = "0.39.1"
 static_assertions = "1.1.0" 
 thiserror = "2.0.18"
+
+dustbin_elf = { path = "elf" }
