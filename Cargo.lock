@@ -79,7 +79,9 @@ dependencies = [
 name = "elf_tests"
 version = "0.1.0"
 dependencies = [
+ "anyhow",
  "dustbin_elf",
+ "iced-x86",
 ]
 
 [[package]]
