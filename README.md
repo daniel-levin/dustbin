@@ -1,5 +1,6 @@
 # dustbin
-Dustbin assists in the production of working and valid ELF files.
+Dustbin is a validation framework for ELF files.
+
 The problem is best explained by way of example.
 
 ## Problem 1: targeting new operating systems
@@ -25,3 +26,8 @@ To do so, we must, at a minimum:
 1. Ensure the compiler has not applied certain aggressive optimizations.
 1. Ensure that the compiler's debug information can still be converted faithfully to CTF.
 1. Ensure that dynamically loadable modules still work.
+
+## Solution
+1. Write assertions using the APIs in `dustbin_elf`.
+1. Load binary.
+1. Check binary conforms.
