@@ -6,6 +6,12 @@ Dustbin is a collection of Design Rule Checks (DRC) for binaries (ELF only, for 
 2. **We jump off cliffs.** If the all the developers of one of our targets are going to jump off a cliff, so are we.
 Our goal is conformance with what is, not what ought to be.
 
+## Intended audience
+|Use case                   | Reasoning     |
+|-                          |-              |
+| Compiler authors          |               |
+| Prorietary build systems  |               |
+
 ## Motivation
 The problem is best explained by way of example.
 
