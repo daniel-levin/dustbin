@@ -1,6 +1,6 @@
 [workspace]
 resolver = "3"
-members = ["elf", "elf_tests"]
+members = ["drc/linux","elf", "elf_tests"]
 
 [workspace.dependencies]
 anyhow = { version = "1.0.102", features = ["backtrace"] }
@@ -13,3 +13,4 @@ static_assertions = "1.1.0"
 thiserror = "2.0.18"
 
 dustbin_elf = { path = "elf" }
+dustbin_elf_tests = { path = "elf_tests" }

@@ -63,6 +63,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "dustbin_drc_linux"
+version = "0.1.0"
+dependencies = [
+ "dustbin_elf",
+ "object",
+]
+
+[[package]]
 name = "dustbin_elf"
 version = "0.1.0"
 dependencies = [
@@ -76,7 +84,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "elf_tests"
+name = "dustbin_elf_tests"
 version = "0.1.0"
 dependencies = [
  "anyhow",

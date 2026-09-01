@@ -1,0 +1,11 @@
+[package]
+name = "dustbin_drc_linux"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+object = { workspace = true }
+dustbin_elf = { workspace = true }
+
+[test-dependencies]
+elf_tests = { workspace = true }

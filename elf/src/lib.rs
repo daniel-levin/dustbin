@@ -1,5 +1,6 @@
 pub mod analysis;
 pub mod diag;
+pub mod drc;
 
 /// A 64-bit little-endian ELF file.
 /// [object::read::elf::ElfFile64] with the endianness and word size
