@@ -37,3 +37,9 @@ To do so, we must, at a minimum:
 1. Write assertions using the APIs in `dustbin_elf`.
 1. Load binary.
 1. Check binary conforms.
+
+## FAQ
+Q: Why have you checked binaries into version control?
+
+A: It is the most convenient of all options.
+All alternatives require tradeoffs not considered acceptable at this time.
