@@ -7,10 +7,7 @@ Dustbin is a collection of Design Rule Checks (DRC) for binaries (ELF only, for 
 Our goal is conformance with what is, not what ought to be.
 
 ## Intended audience
-|Use case                   | Reasoning     |
-|-                          |-              |
-| Compiler authors          |               |
-| Prorietary build systems  |               |
+Authors of compilers, linkers, loaders and libraries doing linker shenanigans.
 
 ## Motivation
 The problem is best explained by way of example.
