@@ -7,5 +7,6 @@ edition = "2024"
 object = { workspace = true }
 dustbin_elf = { workspace = true }
 
-[test-dependencies]
-elf_tests = { workspace = true }
+[dev-dependencies]
+dustbin_elf_tests = { workspace = true }
+anyhow = { workspace = true }

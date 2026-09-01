@@ -1,5 +1,5 @@
 # dustbin
-Dustbin is a validation framework for ELF files.
+Dustbin is a collection of Design Rule Checks (DRC) for ELF files and a framework for creating them.
 
 The problem is best explained by way of example.
 

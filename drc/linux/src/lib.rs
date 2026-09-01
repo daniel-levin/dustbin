@@ -18,4 +18,13 @@ where
     R: ReadRef<'data>,
     Elf::Word: WordSize,
 {
+    pub fn new(analysis: Analyze<'data, Elf, R>) -> Self {
+        Self { analysis }
+    }
+
+    pub fn run(self) {
+        let dl = self.analysis.dynamic_linking();
+
+        dbg!(dl);
+    }
 }
