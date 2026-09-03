@@ -1,4 +1,5 @@
 #![allow(non_upper_case_globals)]
+#![allow(clippy::redundant_static_lifetimes)]
 
 //! ELF binaries used by tests.
 //!
