@@ -69,6 +69,7 @@ dependencies = [
  "anyhow",
  "bstr",
  "derive_more",
+ "dustbin_elf_tests",
  "iced-x86",
  "object",
  "static_assertions",
@@ -78,11 +79,6 @@ dependencies = [
 [[package]]
 name = "dustbin_elf_tests"
 version = "0.1.0"
-dependencies = [
- "anyhow",
- "dustbin_elf",
- "iced-x86",
-]
 
 [[package]]
 name = "flate2"

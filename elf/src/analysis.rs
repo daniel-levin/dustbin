@@ -4,13 +4,9 @@
 //! ```no_run
 //! use dustbin_elf::analysis::Analyze64Le;
 //!
-//! # fn main() -> anyhow::Result<()> {
-//! let data = std::fs::read("path/to/elf")?;
-//! let a = Analyze64Le::begin(&data[..])?;
+//! let a = Analyze64Le::begin(dustbin_elf_tests::linux_bash_x86_64).unwrap();
 //! let main = a.function_definitions().lookup(b"main").unwrap();
 //! assert_eq!(main.address, 0x2ae0);
-//! # Ok(())
-//! # }
 //! ```
 
 pub mod dynamic;
