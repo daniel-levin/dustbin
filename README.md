@@ -46,3 +46,9 @@ Q: Why have you checked binaries into version control?
 
 A: It is the most convenient of all options.
 All alternatives require tradeoffs not considered acceptable at this time.
+
+Q: Design rule checks? What are the design rules?
+A: There are no design rules.
+We chose the name to evoke the idea of a set of automatic conformance tests.
+Our ultimate goal is the production of working binaries, by first removing
+all their faults which can be caught statically.
