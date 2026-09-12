@@ -1,6 +1,6 @@
 use bstr::B;
+use dustbin_elf::analysis::Analyze64Le;
 use dustbin_elf::analysis::special::LifecycleEntry;
-use dustbin_elf::analysis::*;
 
 #[test]
 fn test_bsd_crtend_o() -> anyhow::Result<()> {
