@@ -1,6 +1,6 @@
 [workspace]
 resolver = "3"
-members = ["drc/illumos_kernel", "elf", "elf_tests"]
+members = ["drc/illumos_kernel", "elf", "elf_tests", "drc/freebsd_user"]
 
 [workspace.dependencies]
 anyhow = { version = "1.0.102", features = ["backtrace"] }
