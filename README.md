@@ -55,3 +55,8 @@ A: There are no design rules.
 We chose the name to evoke the idea of a set of automatic conformance tests.
 Our ultimate goal is the production of working binaries, by first removing
 all their faults which can be caught statically.
+
+## License
+
+Dustbin is licensed under the [Apache License, Version 2.0](LICENSE).
+Bundled third-party binaries in `bins/` retain their original licenses.
